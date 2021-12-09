@@ -62,9 +62,9 @@ PRODUCT_MODEL := Pixel 5a
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=barbet \
-    PRIVATE_BUILD_DESC="barbet-user 12 SP1A.211105.003 7757856 release-keys"
+    PRIVATE_BUILD_DESC="barbet-user 12 SQ1A.211205.008 7888514 release-keys"
 
-BUILD_FINGERPRINT := google/barbet/barbet:12/SP1A.211105.003/7757856:user/release-keys
-BUILD_THUMBPRINT := 12/SP1A.211105.003/7757856:user/release-keys
+BUILD_FINGERPRINT := "google/barbet/barbet:12/SQ1A.211205.008/7888514:user/release-keys"
+BUILD_THUMBPRINT := 12/SQ1A.211205.008/7888514:user/release-keys
 
 
