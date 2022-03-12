@@ -187,6 +187,9 @@ PRODUCT_COPY_FILES += \
 # Keyboard bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += ro.com.google.ime.kb_pad_port_b=14.4
 
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayG025H \
