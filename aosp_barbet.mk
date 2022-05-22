@@ -44,6 +44,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 $(call inherit-product, device/google/barbet/device-barbet.mk)
 $(call inherit-product-if-exists, vendor/google_devices/barbet/proprietary/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/barbet/prebuilts/device-vendor-barbet.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Don't build super.img.
 PRODUCT_BUILD_SUPER_PARTITION := false
