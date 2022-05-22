@@ -188,7 +188,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += ro.com.google.ime.kb_pad_port_b=14.4
 
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    WallpaperPicker2 \
+    StatixThemePicker
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
